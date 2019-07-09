@@ -1,0 +1,68 @@
+body{
+    background-image: url("/static/images/bg.jpg");
+    background-size: 100% 1000px;
+}
+.box{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.top{
+    width: 850px;
+    height: 267px;
+    margin: 33px auto 0;
+    color: blue;
+}
+.buttom{
+    width: 850px;
+    height: 267px;
+    margin: auto;
+    color: red;
+}
+figure{
+    margin: 0 10px;
+    float: left;
+    width: 150px;
+    height: 267px;
+    position: relative;
+}
+.img{
+    width: 150px;
+    height: 267px;
+    position: absolute;
+}
+.name,.uname{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}
+.name{bottom: 60px;}
+.uname{bottom: 40px;color: white}
+.shuzi{
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+.div{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    background-color: #24446d;
+    bottom: 0;
+}
+.top-but{
+    width: 850px;
+    height: 39px;
+    margin: auto;
+    text-align: center;
+
+}
+.top-but img{
+    width: 80px;
+    height: 40px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <div style="width:75%;height: auto;overflow: hidden;margin: auto;font-style: italic;background-color: #f0ffa0">
+            {% for i in student %}
+                <figure style="width: 550px;height: 150px;margin: 10px auto;float:left;">
+                    <img src="{{ i.picture }}" style="width: 150px;height: 150px;float: left;margin-left: 20px">
+                    <figcaption style="width:300px;height:150px;float: left;margin: 5px 20px">
+                        <p>姓名：{{ i.name }}</p>
+                        <p>年龄：{{ i.age }}</p>
+                        <div>
+                            <div style="float: left;width: 60px;height: 60px">爱好：</div>
+                            <div style="float: left;width: 200px;height: 60px">
+                                {% for foo in i.hobby %}
+                                    &nbsp;{{ foo }}&nbsp;
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </figcaption>
+                </figure>
+            {% endfor %}
+        </div>
+    </body>
+</html>

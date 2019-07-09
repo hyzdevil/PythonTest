@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>work</title>
+        <link rel="stylesheet" href="{% static 'css/work.css' %}">
+    </head>
+    <body>
+        <div class="box">
+            <div class="top">
+                {% for i in play1 %}
+                    <figure>
+                        <img class="img" src="{% static i.img  %}">
+                        <figcaption class="name">{{ i.name }}</figcaption>
+                        <figcaption class="uname">{{ i.username }}</figcaption>
+                        <div class="div">
+                            <img src="{% static 'images/shanxian.jpg' %}" style="float:left;width: 62px;height: 34px;margin: 3px 0 3px 44px">
+                            <div class="shuzi">99%</div>
+                        </div>
+                    </figure>
+                {% endfor %}
+            </div>
+            <div class="top-but">
+                <img src="{% static 'images/vs.jpg' %}">
+            </div>
+            <div class="buttom">
+                {% for i in play2 %}
+                    <figure>
+                        <img class="img" src="{% static i.img  %}">
+                        <figcaption class="name">{{ i.name }}</figcaption>
+                        <figcaption class="uname">{{ i.username }}</figcaption>
+                        <div class="div">
+                            <img src="{% static 'images/shanxian.jpg' %}" style="float:left;width: 62px;height: 35px;margin: 3px 0 3px 44px">
+                            <div class="shuzi">99%</div>
+                        </div>
+                    </figure>
+                {% endfor %}
+            </div>
+        </div>
+    </body>
+</html>
