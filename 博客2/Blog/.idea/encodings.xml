@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/Blog/settings.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Blog/urls.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apps/myApp0710/models.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apps/myApp0710/urls.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/myApp0710/resume.html" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

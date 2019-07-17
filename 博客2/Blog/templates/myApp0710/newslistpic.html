@@ -1,0 +1,54 @@
+{% extends 'myApp0710/base.html' %}
+{% load static %}
+
+{% block title %}
+    <title>个人笔记</title>
+{% endblock %}
+
+{% block css %}
+    <link href="{% static 'myApp0710/css/main.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="con_content">
+            <div class="about_box">
+                <h2 class="nh1">
+                    <span>您现在的位置是：
+                        <a href="/" target="_blank">网站首页</a>
+                        >>
+                        <a href="/newslistpic/{{ 1 }}/" target="_blank">个人日记</a>
+                    </span>
+                    <b>个人日记</b>
+                </h2>
+                <div class="dtxw box">
+                    {% for i in artical_page %}
+                        <li>
+                            <div class="dttext f_l">
+                                <ul>
+                                    <h2><a href="{% url 'myApp0710:note' i.id %}">{{ i.title }}</a></h2>
+                                    <p>{{ i.description|safe }}</p>
+                                    <span>{{ i.createtime }}</span>
+                                </ul>
+                            </div>
+                            <div class="xwpic f_r"><a href="/"><img src="/static/{{ i.picture }}"></a></div>
+                        </li>
+                    {% endfor %}
+                </div>
+                <div class="pagelist">
+                    <a href="/newslistpic/{{ 1 }}">首页</a>
+                    {% if artical_page.has_previous %}
+                        <a href="/newslistpic/{{ p|add:-1 }}">上一页</a>
+                    {% endif %}
+                    &nbsp;{{ p }}/{{ page.num_pages }} &nbsp;
+                    {% if artical_page.has_next %}
+                        <a href="/newslistpic/{{ p|add:1 }}">下一页</a>
+                    {% endif %}
+                    <a href="/newslistpic/{{ page.num_pages }}">尾页</a>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+    </div>
+    <!-- container代码 结束 -->
+{% endblock %}

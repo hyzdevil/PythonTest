@@ -1,0 +1,61 @@
+{% extends 'myApp0710/base.html' %}
+{% load static %}
+
+{% block title %}
+    <title>留言板</title>
+{% endblock %}
+
+{% block css %}
+    <link href="{% static 'myApp0710/css/main.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="con_content">
+            <div class="about_box">
+                <h2 class="nh1">
+                    <span>您现在的位置是：
+                        <a href="/" target="_blank">网站首页</a>
+                        >>
+                        <a href="#" target="_blank">信息浏览</a>
+                    </span>
+                    <b>留言</b>
+                </h2>
+                <div class="f_box">
+{#                    <p class="a_title"></p>#}
+{#                    <p class="p_title"></p>#}
+                    <!--  <p class="box_p"><span>发布时间：2017-07-07 15:12:42</span><span>作者：唐孝文</span><span>来源：稽查支队</span><span>点击：111056</span></p>-->
+                    <!-- 可用于内容模板 -->
+                </div>
+                <div class="leave_message" style="margin-top: 20px; font-size: 15px">
+                    <form method="post" action="{% url 'myApp0710:leave_message' %} ">
+                        {% csrf_token %}
+                        <table style="margin-left: 250px">
+                            <tr>
+                                <td><span>昵称：</span></td>
+                                <td><input type="text" name="name"></td>
+                            </tr>
+                            <tr>
+                                <td><span>内容：</span></td>
+                                <td><textarea name="message" rows="7" cols="30"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td><span>手机：</span></td>
+                                <td><input type="text" name="phone"></td>
+                            </tr>
+                            <tr>
+                                <td><span>邮箱：</span></td>
+                                <td><input type="email" name="email"></td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td colspan="2" style="text-align: center"><input type="submit" value="保存"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+    </div>
+{% endblock %}

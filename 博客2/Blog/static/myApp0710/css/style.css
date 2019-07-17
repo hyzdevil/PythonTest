@@ -1,0 +1,125 @@
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	font-family: 'Overlock', cursive;
+}
+p{
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+.content_box{
+
+}
+/*--baner--*/
+.banner {
+	-webkit-background-size:cover;
+	background-size:cover;
+	-moz-background-size:cover;
+	position: relative;
+}
+.header-left img {
+    width: 290px;
+    height: 388px;
+    border: 5px solid rgba(255, 255, 255, 0.68);
+}
+.header-right {
+    margin-top: 20px;
+    padding-left: 3em;
+}
+.header-right h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0 0;
+}
+/*.header-right h2 {*/
+    /*font-size: 1.2em;*/
+    /*color: #000;*/
+    /*background: #F3E000;*/
+    /*display: inline-block;*/
+    /*padding: .5em 1.5em;*/
+    /*position: relative;*/
+/*}*/
+/*.header-right h2:before {*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*position: absolute;*/
+    /*content: '';*/
+    /*bottom: -9px;*/
+    /*left: 12px;*/
+    /*border-style: solid;*/
+    /*border-width: 10px 10px 0 10px;*/
+    /*border-color: #F3E000 transparent transparent transparent;*/
+/*}*/
+
+ul.address {
+    margin-top: 2em;
+    border-top: 1px solid #AFAFAF;
+    padding-top: 0.5em;
+}
+ul.address li {
+    display: block;
+}
+ul.address li ul.address-text li {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-top: 1em;
+	font-weight: 100;
+}
+ul.address li ul.address-text li:nth-child(1){
+	width: 20%;
+}
+ul.address li ul.address-text li a {
+	text-decoration:none;
+}
+ul.address li ul.address-text li a:hover{
+    color: #0FF;
+}
+/*--//banner-top--*/
+
+/*--about--*/
+.about{
+	padding: 6em 0;
+}
+.about-left{
+    width: 100%;
+}
+h3.title {
+    font-size: 4em;
+    text-align: center;
+    color: #008B8B;
+    border-bottom: 4px double rgba(247, 197, 106, 0.35);
+    padding-bottom: 0.2em;
+	margin-bottom: 1em;
+}
+p {
+    font-size: 1em;
+    line-height: 1.8em;
+}
+/*.about-right {*/
+    /*padding-left: 5em;*/
+/*}*/
+/*.about-right ul {*/
+    /*border: 3px double #008B8B;*/
+    /*padding: 1em 2em;*/
+/*}*/
+/*.about-right h5 {*/
+    /*font-size: 2em;*/
+    /*text-align: center;*/
+    /*color: #008B8B;*/
+/*}*/
+/*.about-right ul li {*/
+    /*display: block;*/
+    /*margin: 1em 0;*/
+	/*font-size:1em;*/
+/*}*/
+/*.about-right ul li span.glyphicon {*/
+    /*font-size: 0.8em;*/
+	/*margin-right: 6px;*/
+/*}*/
+/*--//about--*/
+
+
+
+

@@ -1,0 +1,61 @@
+{% extends 'myApp0710/base.html' %}
+{% load static %}
+
+{% block title %}
+    <title>个人笔记</title>
+{% endblock %}
+
+{% block css %}
+    <link href="{% static 'myApp0710/css/main.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="con_content">
+            <div class="about_box">
+                <h2 class="nh1">
+                    <span>您现在的位置是：
+                        <a href="/" target="_blank">网站首页</a>
+                        >>
+                        <a href="/messageboard/{{ 1 }}/" target="_blank">留言板</a>
+                    </span>
+                    <b>留言板</b>&nbsp;&nbsp;
+                    <b><a href="{% url 'myApp0710:leave_message' %}">给他留言</a></b>
+                </h2>
+                <div class="dtxw box">
+                    {% if page %}
+                        {% for i in page %}
+                            <li>
+                                <div class="dttext f_l" style="width: 80%">
+                                    <ul>
+                                        <h2>网友：{{ i.name }}</h2>
+                                        <p style="font-size: 16px">{{ i.message|safe }}</p>
+                                        <span>{{ i.date }}</span>
+                                        <span style="float: left">{{ i.email }}</span>
+                                    </ul>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    {% else %}
+                        <div class="box1 f_l" style="width: 80%;border-bottom: #838484 1px solid;margin: auto">
+                            还没有人给他留言呢......
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="pagelist">
+                    <a href="/messageboard/{{ 1 }}">首页</a>
+                    {% if page.has_previous %}
+                        <a href="/messageboard/{{ mid|add:-1 }}">上一页</a>
+                    {% endif %}
+                    &nbsp;{{ mid }}/{{ paginator.num_pages }} &nbsp;
+                    {% if page.has_next %}
+                        <a href="/messageboard/{{ mid|add:1 }}">下一页</a>
+                    {% endif %}
+                    <a href="/messageboard/{{ paginator.num_pages }}">尾页</a>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+    </div>
+    <!-- container代码 结束 -->
+{% endblock %}

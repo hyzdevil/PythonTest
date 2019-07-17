@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6947bf60-9ce6-4e62-ae16-2876c3210a1a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.56019264">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/myApp0710/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/templates/myApp0710/description.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="250">
+                  <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="e#914#920#0#HTML" expanded="true" />
+                    <element signature="e#920#926#0#HTML" expanded="true" />
+                    <element signature="e#920#926#0#HTML" expanded="true" />
+                    <element signature="e#926#932#0#HTML" expanded="true" />
+                    <element signature="e#932#938#0#HTML" expanded="true" />
+                    <element signature="e#938#944#0#HTML" expanded="true" />
+                    <element signature="e#944#950#0#HTML" expanded="true" />
+                    <element signature="e#1167#1173#0#HTML" expanded="true" />
+                    <element signature="e#1173#1179#0#HTML" expanded="true" />
+                    <element signature="e#1173#1179#0#HTML" expanded="true" />
+                    <element signature="e#1179#1185#0#HTML" expanded="true" />
+                    <element signature="e#1185#1191#0#HTML" expanded="true" />
+                    <element signature="e#1191#1197#0#HTML" expanded="true" />
+                    <element signature="e#1197#1203#0#HTML" expanded="true" />
+                    <element signature="e#4072#4078#0#HTML" expanded="true" />
+                    <element signature="e#4078#4084#0#HTML" expanded="true" />
+                    <element signature="e#4084#4090#0#HTML" expanded="true" />
+                    <element signature="e#4090#4096#0#HTML" expanded="true" />
+                    <element signature="e#4096#4102#0#HTML" expanded="true" />
+                    <element signature="e#4102#4108#0#HTML" expanded="true" />
+                    <element signature="e#4108#4114#0#HTML" expanded="true" />
+                    <element signature="e#4114#4120#0#HTML" expanded="true" />
+                    <element signature="e#4320#4326#0#HTML" expanded="true" />
+                    <element signature="e#4326#4332#0#HTML" expanded="true" />
+                    <element signature="e#4332#4338#0#HTML" expanded="true" />
+                    <element signature="e#4338#4344#0#HTML" expanded="true" />
+                    <element signature="e#4344#4350#0#HTML" expanded="true" />
+                    <element signature="e#4350#4356#0#HTML" expanded="true" />
+                    <element signature="e#4356#4362#0#HTML" expanded="true" />
+                    <element signature="e#4362#4368#0#HTML" expanded="true" />
+                    <element signature="e#4539#4545#0#HTML" expanded="true" />
+                    <element signature="e#4545#4551#0#HTML" expanded="true" />
+                    <element signature="e#4551#4557#0#HTML" expanded="true" />
+                    <element signature="e#4557#4563#0#HTML" expanded="true" />
+                    <element signature="e#4563#4569#0#HTML" expanded="true" />
+                    <element signature="e#4569#4575#0#HTML" expanded="true" />
+                    <element signature="e#4575#4581#0#HTML" expanded="true" />
+                    <element signature="e#4581#4587#0#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/myApp0710/css/style.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/apps/myApp0710/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#0#37#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/myApp0710/resume.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="650">
+                  <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#919#943#0#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/myApp0710/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="172">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/static/myApp0710/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="350">
+                  <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>detail</find>
+      <find>url</find>
+      <find>images</find>
+      <find>js</find>
+      <find>jpg</find>
+      <find>.jpg</find>
+      <find>images/</find>
+      <find>font/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>url</replace>
+      <replace>pict</replace>
+      <replace>myApp/images</replace>
+      <replace>myApp0710/js</replace>
+      <replace>jpg' %}</replace>
+      <replace>{% static 'myApp071</replace>
+      <replace>.jpg' %}</replace>
+      <replace>{% static 'myApp0710/images/</replace>
+      <replace>/static/myApp0710/js/</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/myApp/index.html" />
+        <option value="$PROJECT_DIR$/static/css/work.css" />
+        <option value="$PROJECT_DIR$/templates/myApp/work.html" />
+        <option value="$PROJECT_DIR$/apps/myApp/views.py" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/about.html" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/listpic.html" />
+        <option value="$PROJECT_DIR$/static/myApp0710/css/base.css" />
+        <option value="$PROJECT_DIR$/apps/myApp/urls.py" />
+        <option value="$PROJECT_DIR$/apps/myApp/models.py" />
+        <option value="$PROJECT_DIR$/apps/myApp/admin.py" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/test.html" />
+        <option value="$PROJECT_DIR$/apps/myApp0710/admin.py" />
+        <option value="$PROJECT_DIR$/apps/myApp0710/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/Blog/urls.py" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/newslistpic.html" />
+        <option value="$PROJECT_DIR$/Blog/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/notes.html" />
+        <option value="$PROJECT_DIR$/Blog/settings.py" />
+        <option value="$PROJECT_DIR$/apps/myApp0710/migrations/0003_auto_20190716_1854.py" />
+        <option value="$PROJECT_DIR$/apps/myApp0710/forms.py" />
+        <option value="$PROJECT_DIR$/apps/myApp0710/models.py" />
+        <option value="$PROJECT_DIR$/apps/myApp0710/migrations/0003_auto_20190716_1903.py" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/leave_message.html" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/mrssage_board.html" />
+        <option value="$PROJECT_DIR$/apps/myApp0710/views.py" />
+        <option value="$PROJECT_DIR$/apps/myApp0710/urls.py" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/index.html" />
+        <option value="$PROJECT_DIR$/static/myApp0710/css/index.css" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/base.html" />
+        <option value="$PROJECT_DIR$/static/myApp0710/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/resume.html" />
+        <option value="$PROJECT_DIR$/static/myApp0710/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/myApp0710/description.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1345" />
+    <option name="width" value="579" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="myApp0710" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="myApp0710" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="myApp0710" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_0711" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python(第四阶段)\Django\workspace\Blog\static\myApp0710\js" />
+      <recent name="D:\Python(第四阶段)\Django\workspace\Blog\static\myApp0710\images" />
+      <recent name="D:\Python(第四阶段)\Django\workspace\Blog\static\myApp0710" />
+      <recent name="D:\Python(第四阶段)\Django\workspace\Blog\static\myApp0710\css" />
+      <recent name="D:\Python(第四阶段)\Django\workspace\Blog\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python(第四阶段)\Django\workspace\Blog\static\myApp" />
+      <recent name="D:\Python(第四阶段)\Django\workspace\Blog\apps" />
+      <recent name="D:\Python(第四阶段)\Django\workspace\Blog" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Blog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\ProgramData\Anaconda3\envs\DjangoPath\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6947bf60-9ce6-4e62-ae16-2876c3210a1a" name="Default Changelist" comment="" />
+      <created>1562553409836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562553409836</updated>
+      <workItem from="1562553411322" duration="10038000" />
+      <workItem from="1562632753634" duration="29790000" />
+      <workItem from="1562719485098" duration="647000" />
+      <workItem from="1562722278207" duration="17155000" />
+      <workItem from="1562805846531" duration="1198000" />
+      <workItem from="1562808880080" duration="79000" />
+      <workItem from="1562915329412" duration="20384000" />
+      <workItem from="1562981712416" duration="8063000" />
+      <workItem from="1563013141501" duration="3149000" />
+      <workItem from="1563151599607" duration="18452000" />
+      <workItem from="1563195567640" duration="410000" />
+      <workItem from="1563196420514" duration="906000" />
+      <workItem from="1563238242817" duration="2893000" />
+      <workItem from="1563269125333" duration="13438000" />
+      <workItem from="1563324710783" duration="12832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="139434000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16487935" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4980595" weight="0.19027181" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.083451204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019405" side_tool="true" weight="0.19117647" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.37340876" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="manage.py@Blog" order="13" weight="0.042432815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myApp/images/vs.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/myApp/css/work.css" />
+    <entry file="file://$PROJECT_DIR$/static/myApp/images/shanxian.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp/index.html" />
+    <entry file="file://$PROJECT_DIR$/templates/myApp/work.html" />
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/images/libg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/images/lanmbq.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/listpic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/myApp/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/apps/myApp/urls.py" />
+    <entry file="file://$PROJECT_DIR$/../../../workproject/shoppingsystem/apps/cartinfo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/myApp/models.py" />
+    <entry file="file://$PROJECT_DIR$/apps/myApp/admin.py" />
+    <entry file="file://$PROJECT_DIR$/apps/myApp/views.py" />
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/test.html" />
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#49#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/migrations/0002_area.py" />
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/migrations/0003_artical_picture.py" />
+    <entry file="file://$PROJECT_DIR$/Blog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/notes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="21" column="46" selection-end-line="48" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/migrations/0003_auto_20190716_1854.py" />
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/forms.py" />
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/migrations/0003_auto_20190716_1903.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/leave_message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="e#1016#1057#0#HTML" expanded="true" />
+            <element signature="e#1135#1161#0#HTML" expanded="true" />
+            <element signature="e#2095#2121#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/newslistpic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/mrssage_board.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+          <folding>
+            <element signature="e#631#637#0#HTML" expanded="true" />
+            <element signature="e#637#643#0#HTML" expanded="true" />
+            <element signature="e#954#972#0#HTML" expanded="true" />
+            <element signature="e#1109#1132#0#HTML" expanded="true" />
+            <element signature="e#1241#1260#0#HTML" expanded="true" />
+            <element signature="e#979#1043#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2750">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
+          <folding>
+            <element signature="e#303#4709#0#HTML" />
+            <element signature="e#342#443#0#HTML" />
+            <element signature="e#456#582#0#HTML" />
+            <element signature="e#595#835#0#HTML" />
+            <element signature="e#848#1023#0#HTML" />
+            <element signature="e#1036#1138#0#HTML" />
+            <element signature="e#1151#1278#0#HTML" />
+            <element signature="e#1291#1555#0#HTML" />
+            <element signature="e#1568#1745#0#HTML" />
+            <element signature="e#1758#1869#0#HTML" />
+            <element signature="e#1882#2018#0#HTML" />
+            <element signature="e#2031#2346#0#HTML" />
+            <element signature="e#2359#2536#0#HTML" />
+            <element signature="e#2549#2654#0#HTML" />
+            <element signature="e#2667#2797#0#HTML" />
+            <element signature="e#2810#3088#0#HTML" />
+            <element signature="e#3101#3278#0#HTML" />
+            <element signature="e#3291#3392#0#HTML" />
+            <element signature="e#3405#3531#0#HTML" />
+            <element signature="e#3544#3784#0#HTML" />
+            <element signature="e#3797#3972#0#HTML" />
+            <element signature="e#3985#4087#0#HTML" />
+            <element signature="e#4100#4227#0#HTML" />
+            <element signature="e#4240#4504#0#HTML" />
+            <element signature="e#4517#4694#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4375">
+          <caret line="175" column="1" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/myApp0710/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2707">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#303#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding>
+            <element signature="e#919#943#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/myApp0710/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/myApp0710/description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="37" column="39" lean-forward="true" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#914#920#0#HTML" expanded="true" />
+            <element signature="e#920#926#0#HTML" expanded="true" />
+            <element signature="e#920#926#0#HTML" expanded="true" />
+            <element signature="e#926#932#0#HTML" expanded="true" />
+            <element signature="e#932#938#0#HTML" expanded="true" />
+            <element signature="e#938#944#0#HTML" expanded="true" />
+            <element signature="e#944#950#0#HTML" expanded="true" />
+            <element signature="e#1167#1173#0#HTML" expanded="true" />
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1173#1179#0#HTML" expanded="true" />
+            <element signature="e#1179#1185#0#HTML" expanded="true" />
+            <element signature="e#1185#1191#0#HTML" expanded="true" />
+            <element signature="e#1191#1197#0#HTML" expanded="true" />
+            <element signature="e#1197#1203#0#HTML" expanded="true" />
+            <element signature="e#4072#4078#0#HTML" expanded="true" />
+            <element signature="e#4078#4084#0#HTML" expanded="true" />
+            <element signature="e#4084#4090#0#HTML" expanded="true" />
+            <element signature="e#4090#4096#0#HTML" expanded="true" />
+            <element signature="e#4096#4102#0#HTML" expanded="true" />
+            <element signature="e#4102#4108#0#HTML" expanded="true" />
+            <element signature="e#4108#4114#0#HTML" expanded="true" />
+            <element signature="e#4114#4120#0#HTML" expanded="true" />
+            <element signature="e#4320#4326#0#HTML" expanded="true" />
+            <element signature="e#4326#4332#0#HTML" expanded="true" />
+            <element signature="e#4332#4338#0#HTML" expanded="true" />
+            <element signature="e#4338#4344#0#HTML" expanded="true" />
+            <element signature="e#4344#4350#0#HTML" expanded="true" />
+            <element signature="e#4350#4356#0#HTML" expanded="true" />
+            <element signature="e#4356#4362#0#HTML" expanded="true" />
+            <element signature="e#4362#4368#0#HTML" expanded="true" />
+            <element signature="e#4539#4545#0#HTML" expanded="true" />
+            <element signature="e#4545#4551#0#HTML" expanded="true" />
+            <element signature="e#4551#4557#0#HTML" expanded="true" />
+            <element signature="e#4557#4563#0#HTML" expanded="true" />
+            <element signature="e#4563#4569#0#HTML" expanded="true" />
+            <element signature="e#4569#4575#0#HTML" expanded="true" />
+            <element signature="e#4575#4581#0#HTML" expanded="true" />
+            <element signature="e#4581#4587#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
